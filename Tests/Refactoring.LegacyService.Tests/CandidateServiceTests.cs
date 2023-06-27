@@ -28,7 +28,7 @@ namespace Refactoring.LegacyService.Tests
         [Theory]
         [InlineData("FeatureDeveloper", 600)]
         [InlineData("SecuritySpecialist", 1100)]
-        public void AddUser_ShouldCreateCandidate_WhenAllParametersAreValid(string positionName, int initialCreditLimit)
+        public void AddCandidate_ShouldCreateCandidate_WhenAllParametersAreValid(string positionName, int initialCreditLimit)
         {
             const int positionId = 1;
             const string firstName = "Aakash";
